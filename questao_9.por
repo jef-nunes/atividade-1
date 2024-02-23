@@ -8,7 +8,14 @@ programa
 
 	funcao inserir_numero_prestacoes(){
 	real _n_prestacao
-	escreva("Digite o valor de empréstimo: \n")	
+	escreva("Digite o número de prestações: \n")
+        leia(_n_prestacao)
+        se(_n_prestacao != 0 e (valor_emprestimo / _n_prestacao) <= (renda_mensal * 0.3){
+        escreva("A sua solicitação de empréstimo foi aceita.")
+        } senao{
+         escreva("O numero de prestações inserido não foi aceito. Tente novamente:")
+         inserir_numero_prestacoes()
+         }
 	}
 
 	funcao inserir_valor_emprestimo(){
