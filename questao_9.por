@@ -13,7 +13,7 @@ programa
         se(_n_prestacao != 0 e (valor_emprestimo / _n_prestacao) <= (renda_mensal * 0.3){
         escreva("A sua solicitação de empréstimo foi aceita.")
         } senao{
-         escreva("O numero de prestações inserido não foi aceito. Tente novamente:")
+         escreva("O numero de prestações inserido não foi aceito. Tente novamente: \n")
          inserir_numero_prestacoes()
          }
 	}
