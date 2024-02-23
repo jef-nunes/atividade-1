@@ -3,7 +3,6 @@ programa{
 inteiro produto_escolhido = 0
 real quantidade = 0.0
 logico desconto = falso
-logico desconto_extra = falso
 real val_produto_1 = 2.50/1000
 real val_produto_1_desc = 2.20/1000
 real val_produto_2 = 1.80/1000
